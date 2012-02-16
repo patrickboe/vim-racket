@@ -477,4 +477,6 @@ if version >= 508 || !exists("did_racket_syntax_inits")
   delcommand HiLink
 endif
 
+runtime plugin/RainbowParenthesis.vim 
+
 let b:current_syntax = "racket"
